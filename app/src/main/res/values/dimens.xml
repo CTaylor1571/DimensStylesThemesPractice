@@ -2,9 +2,10 @@
 <resources>
     <dimen name="imageHeight">100dp</dimen>
     <dimen name="imageWidth">100dp</dimen>
-    <dimen name="textViewWidth">200dp</dimen>
+    <dimen name="textViewWidth">250dp</dimen>
     <dimen name="textViewHeight">50dp</dimen>
     <dimen name="fontSize">20sp</dimen>
-    <dimen name="verticalMargin">20sp</dimen>
-    <dimen name="horizontalMargin">20sp</dimen>
+    <dimen name="verticalMargin">30dp</dimen>
+    <dimen name="horizontalMargin">75dp</dimen>
+    <dimen name="verticalPadding">20dp</dimen>
 </resources>
