@@ -12,12 +12,24 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:textViewStyle">@style/EditTextStyleNew</item>
+        <item name="android:textViewStyle">@style/TextBoxStyleNew</item>
     </style>
 
 
-    <style name="EditTextStyleNew" parent = "Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="TextBoxStyleNew" parent = "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:background">@color/secondaryLightColor</item>
+        <item name="android:layout_width">@dimen/textViewWidth</item>
+        <item name="android:layout_height">@dimen/textViewHeight</item>
+        <item name="android:layout_marginTop">@dimen/verticalMargin</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:layout_marginStart">@dimen/horizontalMargin</item>
+    </style>
 
+
+    <style name="CustomPicture" parent = "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:layout_width">@dimen/imageWidth</item>
+        <item name="android:layout_height">@dimen/imageHeight</item>
     </style>
 
 </resources>

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">DimensStylesThemesPractice</string>
+    <string name="app_name">Among Us Name Rater</string>
+    <string name="rate_name">Press button to rate name!</string>
 </resources>
