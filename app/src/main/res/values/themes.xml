@@ -35,4 +35,12 @@
         <item name="android:layout_height">@dimen/imageHeight</item>
     </style>
 
+    <style name="GridSpace" parent = "Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+
 </resources>
