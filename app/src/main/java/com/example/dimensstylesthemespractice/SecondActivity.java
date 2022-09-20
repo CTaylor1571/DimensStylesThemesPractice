@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
-    // this is a change
     String name;
     TextView textView;
 
@@ -29,7 +28,7 @@ public class SecondActivity extends AppCompatActivity {
         if(name.equalsIgnoreCase("Christian")||name.equalsIgnoreCase("Christian Taylor")) {
             textView.setText("10/10, best name by far :)");
         } else if (name.equalsIgnoreCase("Aditya")||name.equalsIgnoreCase("Aditya gupta")) {
-            textView.setText("2/10, pretty bad name :(");
+            textView.setText("3.4/10, ok name overall :)");
         } else if (name.equals("")) {
             textView.setText("Enter a name, silly :P");
         } else {

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Among Us Name Rater</string>
+    <string name="hint_text">Enter name</string>
     <string name="rate_name">Press button to rate name!</string>
+    <string name="error_message">Error 404:\nname not found</string>
+    <string name="back_button">Go back</string>
 </resources>
